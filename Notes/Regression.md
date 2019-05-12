@@ -15,8 +15,8 @@
  - 数值越大表示function越不好
 ### Step3: Best Functon
 - $f^*=arg\min\limits_f L(f) $
-- $w^*,b^*=arg\min\limits_{w,b} L(w,b) $
-- $w^*,b^*=arg\min\limits_{w,b} \sum\limits_{n=1}^{10}(y^n-(b+w\times x^n_{cp}))^2 $ $
+- ${w^*,b^*}=arg\min\limits_{w,b} L(w,b) $
+- ${w^*,b^*}=arg\min\limits_{w,b} \sum\limits_{n=1}^{10}(y^n-(b+w\times x^n_{cp}))^2 $ $
 - 找到使得损失函数最小的w和b，如何找到呢，运用 Gradient Descent，梯度下降
 - 梯度下降，对参数w求导，求出来损失函数的斜率，再乘上参数n，把值加在参数w上，得到w0
 - $ x=y $ 
